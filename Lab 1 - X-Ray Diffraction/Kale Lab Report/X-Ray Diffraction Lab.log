@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.2) (preloaded format=pdflatex 2023.4.14)  22 JAN 2024 09:47
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.2) (preloaded format=pdflatex 2023.4.14)  30 JAN 2024 09:53
 entering extended mode
 **"./X-Ray Diffraction Lab.tex"
 (X-Ray Diffraction Lab.tex
@@ -549,20 +549,20 @@ File: l3backend-pdftex.def 2021-02-18 L3 backend support: PDF output (pdfTeX)
 (X-Ray Diffraction Lab.aux)
 \openout1 = `"X-Ray Diffraction Lab.aux"'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 23.
-LaTeX Font Info:    ... okay on input line 23.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 26.
+LaTeX Font Info:    ... okay on input line 26.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -585,14 +585,14 @@ LaTeX Font Info:    ... okay on input line 23.
 * \headsep=25.0pt
 * \topskip=10.0pt
 * \footskip=30.0pt
-* \marginparwidth=65.0pt
-* \marginparsep=11.0pt
+* \marginparwidth=4.0pt
+* \marginparsep=10.0pt
 * \columnsep=10.0pt
 * \skip\footins=9.0pt plus 4.0pt minus 2.0pt
 * \hoffset=0.0pt
 * \voffset=0.0pt
 * \mag=1000
-* \@twocolumnfalse
+* \@twocolumntrue
 * \@twosidefalse
 * \@mparswitchfalse
 * \@reversemarginfalse
@@ -619,12 +619,12 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: float package is loaded.
 Package caption Info: End \AtBeginDocument code.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 25.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 40.
 
  (C:\Users\kales\AppData\Local\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 25.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 40.
 
 
 (C:\Users\kales\AppData\Local\MiKTeX\tex/latex/amsfonts\umsb.fd
@@ -633,49 +633,153 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 <apparatus.png, id=4, 255.354pt x 156.585pt>
 File: apparatus.png Graphic file (type png)
 <use apparatus.png>
-Package pdftex.def Info: apparatus.png  used on input line 43.
+Package pdftex.def Info: apparatus.png  used on input line 53.
 (pdftex.def)             Requested size: 211.38832pt x 129.62862pt.
 <x-ray tube.png, id=6, 268.00125pt x 270.10913pt>
 File: x-ray tube.png Graphic file (type png)
 <use x-ray tube.png>
-Package pdftex.def Info: x-ray tube.png  used on input line 53.
+Package pdftex.def Info: x-ray tube.png  used on input line 62.
 (pdftex.def)             Requested size: 105.69415pt x 106.52501pt.
 <goniometer.png, id=7, 232.16737pt x 246.01912pt>
 File: goniometer.png Graphic file (type png)
 <use goniometer.png>
-Package pdftex.def Info: goniometer.png  used on input line 61.
+Package pdftex.def Info: goniometer.png  used on input line 70.
 (pdftex.def)             Requested size: 105.69415pt x 111.99893pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 60--75
+[][]
+ []
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[1
 
-{C:/Users/kales/AppData/Local/MiKTeX/pdftex/config/pdftex.map} <./apparatus.png
->] [2 <./x-ray tube.png> <./goniometer.png>] [3] (X-Ray Diffraction Lab.aux) ) 
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [1{C:/Users/kales/AppData/Local/MiKTeX/pdftex/config/pdftex.map}
+
+ <./apparatus.png> <./x-ray tube.png> <./goniometer.png>]
+<../Graphs/ZeroData.png, id=24, 462.528pt x 346.896pt>
+File: ../Graphs/ZeroData.png Graphic file (type png)
+<use ../Graphs/ZeroData.png>
+Package pdftex.def Info: ../Graphs/ZeroData.png  used on input line 84.
+(pdftex.def)             Requested size: 234.8775pt x 176.15768pt.
+
+Overfull \hbox (5.0pt too wide) in paragraph at lines 84--86
+ [][] 
+ []
+
+
+Package caption Warning: \label without proper reference on input line 85.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `zerodata' on page 2 undefined on input line 88.
+
+
+Package caption Warning: \label without proper reference on input line 94.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `fulldata' on page 2 undefined on input line 90.
+
+<../Graphs/FullData.png, id=25, 462.528pt x 346.896pt>
+File: ../Graphs/FullData.png Graphic file (type png)
+<use ../Graphs/FullData.png>
+Package pdftex.def Info: ../Graphs/FullData.png  used on input line 93.
+(pdftex.def)             Requested size: 234.8775pt x 176.15768pt.
+
+Overfull \hbox (5.0pt too wide) in paragraph at lines 93--95
+ [][] 
+ []
+
+<../Graphs/Peak 1.png, id=26, 462.528pt x 346.896pt>
+File: ../Graphs/Peak 1.png Graphic file (type png)
+<use ../Graphs/Peak 1.png>
+Package pdftex.def Info: ../Graphs/Peak 1.png  used on input line 101.
+(pdftex.def)             Requested size: 155.02pt x 116.26512pt.
+<../Graphs/Peak 3.png, id=27, 462.528pt x 346.896pt>
+File: ../Graphs/Peak 3.png Graphic file (type png)
+<use ../Graphs/Peak 3.png>
+Package pdftex.def Info: ../Graphs/Peak 3.png  used on input line 107.
+(pdftex.def)             Requested size: 155.02pt x 116.26512pt.
+<../Graphs/Peak 5.png, id=28, 462.528pt x 346.896pt>
+File: ../Graphs/Peak 5.png Graphic file (type png)
+<use ../Graphs/Peak 5.png>
+Package pdftex.def Info: ../Graphs/Peak 5.png  used on input line 113.
+(pdftex.def)             Requested size: 155.02pt x 116.26512pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 99--117
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 99--117
+[]
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<../Graphs/Peak 2.png, id=29, 462.528pt x 346.896pt>
+File: ../Graphs/Peak 2.png Graphic file (type png)
+<use ../Graphs/Peak 2.png>
+Package pdftex.def Info: ../Graphs/Peak 2.png  used on input line 123.
+(pdftex.def)             Requested size: 155.02pt x 116.26512pt.
+<../Graphs/Peak 4.png, id=30, 462.528pt x 346.896pt>
+File: ../Graphs/Peak 4.png Graphic file (type png)
+<use ../Graphs/Peak 4.png>
+Package pdftex.def Info: ../Graphs/Peak 4.png  used on input line 129.
+(pdftex.def)             Requested size: 155.02pt x 116.26512pt.
+<../Graphs/Peak 6.png, id=31, 462.528pt x 346.896pt>
+File: ../Graphs/Peak 6.png Graphic file (type png)
+<use ../Graphs/Peak 6.png>
+Package pdftex.def Info: ../Graphs/Peak 6.png  used on input line 135.
+(pdftex.def)             Requested size: 155.02pt x 116.26512pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 121--139
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 121--139
+[]
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[2 <../Graphs/ZeroData.png> <../Graphs/FullData.png>] [3 <../Graphs/Peak 1.png>
+ <../Graphs/Peak 3.png> <../Graphs/Peak 5.png> <../Graphs/Peak 2.png> <../Graph
+s/Peak 4.png> <../Graphs/Peak 6.png>] (X-Ray Diffraction Lab.aux)
+
+LaTeX Warning: There were undefined references.
+
+ ) 
 Here is how much of TeX's memory you used:
- 15603 strings out of 479334
- 303789 string characters out of 2861332
- 599438 words of memory out of 3000000
- 32787 multiletter control sequences out of 15000+200000
- 411900 words of font info for 60 fonts, out of 3000000 for 9000
+ 15659 strings out of 479334
+ 305248 string characters out of 2861332
+ 605837 words of memory out of 3000000
+ 32842 multiletter control sequences out of 15000+200000
+ 407254 words of font info for 42 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 113i,11n,116p,434b,515s stack positions out of 5000i,500n,10000p,200000b,50000s
-<
-C:/Users/kales/AppData/Local/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><
-C:/Users/kales/AppData/Local/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><
-C:/Users/kales/AppData/Local/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx9.pfb><C
-:/Users/kales/AppData/Local/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C
-:/Users/kales/AppData/Local/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:
-/Users/kales/AppData/Local/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/
-Users/kales/AppData/Local/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/U
-sers/kales/AppData/Local/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Us
-ers/kales/AppData/Local/MiKTeX/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/User
-s/kales/AppData/Local/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/User
-s/kales/AppData/Local/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
-Output written on "X-Ray Diffraction Lab.pdf" (3 pages, 548059 bytes).
+ 113i,11n,116p,933b,516s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Users/kales/AppData/Local/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pf
+b><C:/Users/kales/AppData/Local/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pf
+b><C:/Users/kales/AppData/Local/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx9.pfb
+><C:/Users/kales/AppData/Local/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb
+><C:/Users/kales/AppData/Local/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb>
+<C:/Users/kales/AppData/Local/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><
+C:/Users/kales/AppData/Local/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C
+:/Users/kales/AppData/Local/MiKTeX/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/
+Users/kales/AppData/Local/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/
+Users/kales/AppData/Local/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
+Output written on "X-Ray Diffraction Lab.pdf" (3 pages, 767627 bytes).
 PDF statistics:
- 66 PDF objects out of 1000 (max. 8388607)
+ 78 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 28 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 68 words of extra memory for PDF output out of 10000 (max. 10000000)
 

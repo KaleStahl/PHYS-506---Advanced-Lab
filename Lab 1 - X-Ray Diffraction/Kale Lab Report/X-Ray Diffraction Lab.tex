@@ -1,4 +1,4 @@
-\documentclass[]{article}
+\documentclass[twocolumn]{article}
 \usepackage[utf8]{inputenc}
 \usepackage[margin=1.0in]{geometry}
 \usepackage{amsmath, amsfonts}
@@ -15,19 +15,29 @@
 
 \pagestyle{fancy}
 \fancyhf{}
-\title{Confirming Bragg's Law using X-Ray Diffraction from an NaCl Crystal}
+\title{Confirming Bragg's Law using X-Ray Diffraction from NaCl}
 \author{Kale Stahl}
-\lhead{X-Ray Diffraction from an NaCl Crystal}
-\rhead{Kale Stahl}
+\lhead{X-Ray Diffraction from NaCl}
+\makeatletter
+\chead{\@date}
+\rhead{\@author}
+\makeatother
 
 \begin{document}
-	
-	\maketitle
+	%Makes fancy title
+	\makeatletter
+	\begin{center}
+		{\centering \Large \bd \@title}\\
+		\vspace{.5cm}
+		{\large \@author}
+		\vspace{.25cm}
+	\end{center}
+	\makeatother
 	\begin{abstract}
 		
 	\end{abstract}
 	\section{Introduction}
-		The arrangement of atoms or ions in crystals can be understood as an array of parallel lattice. These lattices will form planes in which waves can be scattered, creating a spherical wavelet. In this situation, our wavelength $\lambda$ of the incident wagve is unchanged and 
+		The arrangement of atoms or ions in crystals can be understood as an array of parallel lattice. These lattices will form planes in which waves can be scattered, creating a spherical wavelet. In this situation, our wavelength $\lambda$ of the incident wave is unchanged and 
 		
 		Bragg's law states that the glancing angle $\theta$ is related to an integer multiple of the incident wavelength $\lambda$ in the following way
 		\begin{equation}
@@ -37,7 +47,7 @@
 		
 	\section{Experimental Procedure}
 		\subsection{Apparatus}
-		We will use the Lehr-und Didaktiksysteme X-ray Apparatus 554 800 with serial number . A visualization of this apparatus is seen in Figure \ref{apparatus}. This apparatus is equipped with a built in X-ray tube, goniometer, and Geiger-M\"uller counter, We will detail the exact specifications and use of each of these components below.
+		We will use the Lehr-und Didaktiksysteme X-ray Apparatus 554 800 (Figure \ref{apparatus}) with serial number 469703. A visualization of this apparatus is seen in Figure \ref{apparatus}. This apparatus is equipped with a built in X-ray tube, goniometer, and Geiger-M\"uller counter, We will detail the exact specifications and use of each of these components below.
 		\begin{figure}[h!]
 			\begin{center}
 				\includegraphics[width = .45\textwidth]{apparatus}
@@ -45,8 +55,7 @@
 			\caption{Visualization of the Lehr-und Didaktiksysteme X-ray Apparatus 554 800}
 			\label{apparatus}
 		\end{figure}
-		\subsubsection*{X-Ray Tube}
-			The X-ray tube uses a molybdenum anode in a copper block whose purpose is to dissipate heat. This molybdenum has $K_\alpha = 17.4$ keV and $K_\beta = 19.6$ keV.
+			The X-ray tube(Figure \ref{x-ray tube}) uses a molybdenum anode in a copper block whose purpose is to dissipate heat. This molybdenum has $K_\alpha = 17.4$ keV and $K_\beta = 19.6$ keV.
 			\begin{figure}[h!]
 				\begin{subfigure}{.45\textwidth}
 					\begin{center}
@@ -65,16 +74,71 @@
 				\end{subfigure}
 				\caption{Descriptions of x-ray tube and goniometer}
 			\end{figure}
-		\subsubsection*{Goniometer}
-			This goniometer is a self-contained unit for mounting the crystal sample and the detector. It is internally calibrated so that the GM Counter will move twice the angle of the sample for each rotation in order to maintain the Bragg angle. The goniometer has unlimited angle range with an angular resolution of $0.1^\circ$.
-		\subsubsection*{Geiger-M\"uller Counter}
-			We will utilize a self-quenching Geiger-M\"uller counter with a thin mica window $d = 12- 15$ mm with a filling of neon, argon, and halogen gas. This will be used to detect the x-ray radiation scattering off the crystal. It has an energy range of greater than 2.5 keV for x-ray radiation.
-		\subsubsection*{NaCl Crystal}
-			The NaCl crystal we will use is a 25 by 25 by 4 millimeter NaCl crystal with the spacing of lattice planes being 282 pm. This crystal has theoretical reflection angles of $7.24^\circ$ for $K_\alpha$ and $6.43^\circ$ for $K_\beta$ from the molybdenum x-ray tube.
+			This goniometer (Figure \ref{goniometer}) is a self-contained unit for mounting the crystal sample and the detector. It is internally calibrated so that the GM Counter will move twice the angle of the sample for each rotation in order to maintain the Bragg angle. The goniometer has unlimited angle range with an angular resolution of $0.1^\circ$. We will utilize a self-quenching Geiger-M\"uller counter with a thin mica window $d = 12- 15$ mm with a filling of neon, argon, and halogen gas. This will be used to detect the x-ray radiation scattering off the crystal.	The NaCl crystal we will use is a 25 by 25 by 4 millimeter NaCl crystal with the spacing of lattice planes being 282 pm. This crystal has theoretical reflection angles of $7.24^\circ$ for $K_\alpha$ and $6.43^\circ$ for $K_\beta$ from the molybdenum x-ray tube.
 		\subsection{Data Collection}
-	
+			Data collection will be done using the Geigar-M\"uller counter to measure the number of incident X-rays and the goniometer to measure the angle of the sample. The built in scan mode of the apparatus will be used to scan through the angles of $2^\circ$ and $25^\circ$. The Geigar-Mu\"ller counter will take counts of how many X-ray photons per second it detects at that angle. The data can be collected directly from the device utilizing its built in software. We will then plot the count rate as a function of angle in which we should see defined peaks at each Bragg for each value of $n$ for Mb $K_\alpha$ and $K_\beta$ emissions. We expect there to be six defined peaks, one for the $3$ values of $n$ for each emission spectrum. We will then fit a curve to these emission peaks in order to find the angle in which they are maximized, which will be our Bragg angle for that emission line.
 	\section{Data Analysis}
-	
+			The first step in taking data is to see the expected counters of the GM counter without a sample to diffract off of. The purpose of this is to determine the shape of the expected peak that will be superimposed on the X-ray emission spectrum of molybdenum. 
+			\begin{figure}
+				\centering
+				\includegraphics[width = .5\textwidth]{../Graphs/ZeroData}
+				\label{zerodata}
+				\caption{X-ray count data without a sample}
+			\end{figure}
+			Our results for this baseline can be seen in Figure \ref{zerodata}. The dip in the peak of the curve is most likely due to the fact that there is a lip on the sample rest and this caused the x-rays to scatter abnormally. Otherwise, we have a curve that fits very similarly to a Gaussian, so we will utilize a Gaussian fit for each peak in our experimental data. 
+			
+			With our fit determined, we will now analyze the data of the full scan. The graph of the full gamut of data is seen in Figure \ref{fulldata}
+			\begin{figure}
+				\centering
+				\includegraphics[width = .5\textwidth]{../Graphs/FullData}
+				\label{fulldata}
+				\caption{Graph of count rate versus angle }
+			\end{figure}
+			
+			\begin{figure}[h!]
+				\begin{subfigure}{.33\textwidth}
+					\begin{center}
+						\includegraphics[width = \textwidth]{../Graphs/Peak 1}
+					\end{center}
+					\label{beta 1}
+				\end{subfigure}
+				\begin{subfigure}{.33\textwidth}
+					\begin{center}
+						\includegraphics[width = \textwidth]{../Graphs/Peak 3}
+					\end{center}
+					\label{beta 2}
+				\end{subfigure}
+				\begin{subfigure}{.33\textwidth}
+					\begin{center}
+						\includegraphics[width = \textwidth]{../Graphs/Peak 5}
+					\end{center}
+					\label{beta 3}
+				\end{subfigure}
+				\caption{Graphs of each peak of the Mb $K_\beta$ emission.}
+			\end{figure}
+			
+			\begin{figure}[h!]
+				\begin{subfigure}{.33\textwidth}
+					\begin{center}
+						\includegraphics[width = \textwidth]{../Graphs/Peak 2}
+					\end{center}
+					\label{alpha 1}
+				\end{subfigure}
+				\begin{subfigure}{.33\textwidth}
+					\begin{center}
+						\includegraphics[width = \textwidth]{../Graphs/Peak 4}
+					\end{center}
+					\label{alpha 2}
+				\end{subfigure}
+				\begin{subfigure}{.33\textwidth}
+					\begin{center}
+						\includegraphics[width = \textwidth]{../Graphs/Peak 6}
+					\end{center}
+					\label{alpha 3}
+				\end{subfigure}
+				\caption{Graphs of each peak of the Mb $K_\alpha$ emission.}
+			\end{figure}
+			
 	\section{Results and Conclusions}
 	
 	\newpage
