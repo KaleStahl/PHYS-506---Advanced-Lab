@@ -34,7 +34,7 @@
 	\end{center}
 	\makeatother
 	\begin{abstract}
-		
+		This report has the goal of confirming Bragg's law using x-ray diffraction from an NaCl crystal. The experiment was conducted and the results show that Bragg's law holds for such a crystal in general, but further error analysis is needed.
 	\end{abstract}
 	\section{Introduction}
 		The arrangement of atoms or ions in crystals can be understood as an array of parallel lattice. These lattices will form planes in which waves can be scattered, creating a spherical wavelet. In this situation, our wavelength $\lambda$ of the incident wave is unchanged and 
@@ -78,21 +78,27 @@
 		\subsection{Data Collection}
 			Data collection will be done using the Geigar-M\"uller counter to measure the number of incident X-rays and the goniometer to measure the angle of the sample. The built in scan mode of the apparatus will be used to scan through the angles of $2^\circ$ and $25^\circ$. The Geigar-Mu\"ller counter will take counts of how many X-ray photons per second it detects at that angle. The data can be collected directly from the device utilizing its built in software. We will then plot the count rate as a function of angle in which we should see defined peaks at each Bragg for each value of $n$ for Mb $K_\alpha$ and $K_\beta$ emissions. We expect there to be six defined peaks, one for the $3$ values of $n$ for each emission spectrum. We will then fit a curve to these emission peaks in order to find the angle in which they are maximized, which will be our Bragg angle for that emission line.
 	\section{Data Analysis}
-			The first step in taking data is to see the expected counters of the GM counter without a sample to diffract off of. The purpose of this is to determine the shape of the expected peak that will be superimposed on the X-ray emission spectrum of molybdenum. 
+			The first step in taking data is to see the expected counters of the GM counter without a sample to diffract off of. The purpose of this is to determine the shape of the expected peak that will be superimposed on the X-ray emission spectrum of molybdenum. This experiment was carried out with a sample timer of 10 seconds.
 			\begin{figure}
 				\centering
 				\includegraphics[width = .5\textwidth]{../Graphs/ZeroData}
-				\label{zerodata}
 				\caption{X-ray count data without a sample}
+				\label{zerodata}
 			\end{figure}
 			Our results for this baseline can be seen in Figure \ref{zerodata}. The dip in the peak of the curve is most likely due to the fact that there is a lip on the sample rest and this caused the x-rays to scatter abnormally. Otherwise, we have a curve that fits very similarly to a Gaussian, so we will utilize a Gaussian fit for each peak in our experimental data. 
 			
-			With our fit determined, we will now analyze the data of the full scan. The graph of the full gamut of data is seen in Figure \ref{fulldata}
+			With our fit determined, we will now analyze the data of the full scan. The graph of the full gamut of data is seen in Figure \ref{fulldata}. In this scan, with a sample timer of 10 seconds, we can clearly see 6 defined peaks. These peaks represent the angles in which the count of x-rays is maximized, meaning this is the point of the total constructive interference which is interpreted as the Bragg angle. Thus, to determine our Bragg angle for each peak, we will collect data on each peak individually and then fit a modified Gaussian to each peak and interpret the center of the Gaussian to be our maximal angle.
+			
+			To fit our data, we first collected data using a sample timer of 20 seconds to improve our precision of each peak. Then, we determined which points we could consider part of the peak and which can be considered part of the background data. Once this is determined, we can then fit a function to only the background data, and the shift our peak fit by the fit of the background in order to ensure that our fit accurate. For this case, we fit a cubic polynomial $P_3(x)$ to the background data and then from there used the fit seen in (\ref{eq: fit}) to find our function $f(x)$ with parameters $a, b, c$ with $b$ giving us the point of maximality for our specific peak.
+			\begin{equation}
+				f(x) = ae^{\frac{-(x-b)^2}{c^2}} + P_3(x) \label{eq: fit}
+			\end{equation}	
+			Our fitted data for the $K_\beta$ emission lines can be seen in Figure \ref{fig: beta} and the fitted data 
 			\begin{figure}
 				\centering
 				\includegraphics[width = .5\textwidth]{../Graphs/FullData}
-				\label{fulldata}
 				\caption{Graph of count rate versus angle }
+				\label{fulldata}
 			\end{figure}
 			
 			\begin{figure}[h!]
@@ -115,6 +121,7 @@
 					\label{beta 3}
 				\end{subfigure}
 				\caption{Graphs of each peak of the Mb $K_\beta$ emission.}
+				\label{fig: beta}
 			\end{figure}
 			
 			\begin{figure}[h!]
@@ -137,7 +144,36 @@
 					\label{alpha 3}
 				\end{subfigure}
 				\caption{Graphs of each peak of the Mb $K_\alpha$ emission.}
+				\label{fig: alpha}
 			\end{figure}
+		\begin{figure}
+			\centering
+			\begin{tabular}{|c|c|c|}
+				\hline
+				$\mathbf{n}$ & $\boldsymbol{\theta}(\mathbf{K}_{\boldsymbol{\beta}})$ & $\boldsymbol{\theta}(\mathbf{K}_{\boldsymbol{\alpha}})$\\
+				\hline
+				1& $6.42^\circ$& $7.24^\circ$\\
+				2& $12.93^\circ$& $14.60^\circ$\\
+				3& $19.61^\circ$& $22.21^\circ$\\
+				\hline
+			\end{tabular}
+			\caption{Accepted values for glancing angles}
+			\label{truevalue}
+		\end{figure}
+		\begin{figure}
+			\centering
+			\begin{tabular}{|c|c|c|}
+				\hline
+				$\mathbf{n}$ & $\boldsymbol{\theta}(\mathbf{K}_{\boldsymbol{\beta}})$ & $\boldsymbol{\theta}(\mathbf{K}_{\boldsymbol{\alpha}})$\\
+				\hline
+				1& $6.46^\circ\pm 0.00379^\circ$&$7.27^\circ\pm 0.00420^\circ$\\
+				2& $12.96^\circ\pm 0.00951^\circ$&$14.62^\circ\pm 0.00361^\circ$\\
+				3& $19.64^\circ\pm 0.0162^\circ$&$22.20^\circ\pm 0.00707^\circ$\\
+				\hline
+			\end{tabular}
+			\caption{Measured values for glancing angles}
+			\label{foundvalue}
+		\end{figure}
 			
 	\section{Results and Conclusions}
 	
