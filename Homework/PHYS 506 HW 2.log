@@ -1,0 +1,1085 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.2) (preloaded format=pdflatex 2023.4.14)  22 FEB 2024 12:11
+entering extended mode
+**"./PHYS 506 HW 2.tex"
+(PHYS 506 HW 2.tex
+LaTeX2e <2020-10-01> patch level 4
+L3 programming layer <2021-02-18> xparse <2020-03-03>
+(C:\Users\kales\AppData\Local\MiKTeX\tex/latex/base\article.cls
+Document Class: article 2020/04/10 v1.4m Standard LaTeX document class
+(C:\Users\kales\AppData\Local\MiKTeX\tex/latex/base\size10.clo
+File: size10.clo 2020/04/10 v1.4m Standard LaTeX file (size option)
+)
+\c@part=\count179
+\c@section=\count180
+\c@subsection=\count181
+\c@subsubsection=\count182
+\c@paragraph=\count183
+\c@subparagraph=\count184
+\c@figure=\count185
+\c@table=\count186
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen138
+)
+(C:\Users\kales\AppData\Local\MiKTeX\tex/latex/base\inputenc.sty
+Package: inputenc 2020/08/01 v1.3d Input encoding file
+\inpenc@prehook=\toks15
+\inpenc@posthook=\toks16
+)
+(C:\Users\kales\AppData\Local\MiKTeX\tex/latex/geometry\geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+
+(C:\Users\kales\AppData\Local\MiKTeX\tex/latex/graphics\keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks17
+)
+(C:\Users\kales\AppData\Local\MiKTeX\tex/generic/iftex\ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+
+(C:\Users\kales\AppData\Local\MiKTeX\tex/generic/iftex\iftex.sty
+Package: iftex 2020/03/06 v1.0d TeX engine tests
+))
+\Gm@cnth=\count187
+\Gm@cntv=\count188
+\c@Gm@tempcnt=\count189
+\Gm@bindingoffset=\dimen139
+\Gm@wd@mp=\dimen140
+\Gm@odd@mp=\dimen141
+\Gm@even@mp=\dimen142
+\Gm@layoutwidth=\dimen143
+\Gm@layoutheight=\dimen144
+\Gm@layouthoffset=\dimen145
+\Gm@layoutvoffset=\dimen146
+\Gm@dimlist=\toks18
+
+(C:\Users\kales\AppData\Local\MiKTeX\tex/latex/geometry\geometry.cfg))
+(C:\Users\kales\AppData\Local\MiKTeX\tex/latex/amsmath\amsmath.sty
+Package: amsmath 2020/09/23 v2.17i AMS math features
+\@mathmargin=\skip49
+
+For additional information on amsmath, use the `?' option.
+(C:\Users\kales\AppData\Local\MiKTeX\tex/latex/amsmath\amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+
+(C:\Users\kales\AppData\Local\MiKTeX\tex/latex/amsmath\amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks19
+\ex@=\dimen147
+))
+(C:\Users\kales\AppData\Local\MiKTeX\tex/latex/amsmath\amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen148
+)
+(C:\Users\kales\AppData\Local\MiKTeX\tex/latex/amsmath\amsopn.sty
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count190
+LaTeX Info: Redefining \frac on input line 234.
+\uproot@=\count191
+\leftroot@=\count192
+LaTeX Info: Redefining \overline on input line 399.
+\classnum@=\count193
+\DOTSCASE@=\count194
+LaTeX Info: Redefining \ldots on input line 496.
+LaTeX Info: Redefining \dots on input line 499.
+LaTeX Info: Redefining \cdots on input line 620.
+\Mathstrutbox@=\box47
+\strutbox@=\box48
+\big@size=\dimen149
+LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
+\macc@depth=\count195
+\c@MaxMatrixCols=\count196
+\dotsspace@=\muskip16
+\c@parentequation=\count197
+\dspbrk@lvl=\count198
+\tag@help=\toks20
+\row@=\count199
+\column@=\count266
+\maxfields@=\count267
+\andhelp@=\toks21
+\eqnshift@=\dimen150
+\alignsep@=\dimen151
+\tagshift@=\dimen152
+\tagwidth@=\dimen153
+\totwidth@=\dimen154
+\lineht@=\dimen155
+\@envbody=\toks22
+\multlinegap=\skip50
+\multlinetaggap=\skip51
+\mathdisplay@stack=\toks23
+LaTeX Info: Redefining \[ on input line 2923.
+LaTeX Info: Redefining \] on input line 2924.
+)
+(C:\Users\kales\AppData\Local\MiKTeX\tex/latex/amsfonts\amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+)
+(C:\Users\kales\AppData\Local\MiKTeX\tex/latex/pgf/frontendlayer\tikz.sty
+(C:\Users\kales\AppData\Local\MiKTeX\tex/latex/pgf/basiclayer\pgf.sty
+(C:\Users\kales\AppData\Local\MiKTeX\tex/latex/pgf/utilities\pgfrcs.sty
+(C:\Users\kales\AppData\Local\MiKTeX\tex/generic/pgf/utilities\pgfutil-common.t
+ex
+\pgfutil@everybye=\toks24
+\pgfutil@tempdima=\dimen156
+\pgfutil@tempdimb=\dimen157
+
+(C:\Users\kales\AppData\Local\MiKTeX\tex/generic/pgf/utilities\pgfutil-common-l
+ists.tex))
+(C:\Users\kales\AppData\Local\MiKTeX\tex/generic/pgf/utilities\pgfutil-latex.de
+f
+\pgfutil@abb=\box49
+)
+(C:\Users\kales\AppData\Local\MiKTeX\tex/generic/pgf/utilities\pgfrcs.code.tex
+(C:\Users\kales\AppData\Local\MiKTeX\tex/generic/pgf\pgf.revision.tex)
+Package: pgfrcs 2020/12/27 v3.1.8b (3.1.8b)
+))
+Package: pgf 2020/12/27 v3.1.8b (3.1.8b)
+
+(C:\Users\kales\AppData\Local\MiKTeX\tex/latex/pgf/basiclayer\pgfcore.sty
+(C:\Users\kales\AppData\Local\MiKTeX\tex/latex/graphics\graphicx.sty
+Package: graphicx 2020/09/09 v1.2b Enhanced LaTeX Graphics (DPC,SPQR)
+
+(C:\Users\kales\AppData\Local\MiKTeX\tex/latex/graphics\graphics.sty
+Package: graphics 2020/08/30 v1.4c Standard LaTeX Graphics (DPC,SPQR)
+
+(C:\Users\kales\AppData\Local\MiKTeX\tex/latex/graphics\trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(C:\Users\kales\AppData\Local\MiKTeX\tex/latex/graphics-cfg\graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 105.
+
+(C:\Users\kales\AppData\Local\MiKTeX\tex/latex/graphics-def\pdftex.def
+File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen158
+\Gin@req@width=\dimen159
+)
+(C:\Users\kales\AppData\Local\MiKTeX\tex/latex/pgf/systemlayer\pgfsys.sty
+(C:\Users\kales\AppData\Local\MiKTeX\tex/generic/pgf/systemlayer\pgfsys.code.te
+x
+Package: pgfsys 2020/12/27 v3.1.8b (3.1.8b)
+
+(C:\Users\kales\AppData\Local\MiKTeX\tex/generic/pgf/utilities\pgfkeys.code.tex
+\pgfkeys@pathtoks=\toks25
+\pgfkeys@temptoks=\toks26
+
+(C:\Users\kales\AppData\Local\MiKTeX\tex/generic/pgf/utilities\pgfkeysfiltered.
+code.tex
+\pgfkeys@tmptoks=\toks27
+))
+\pgf@x=\dimen160
+\pgf@y=\dimen161
+\pgf@xa=\dimen162
+\pgf@ya=\dimen163
+\pgf@xb=\dimen164
+\pgf@yb=\dimen165
+\pgf@xc=\dimen166
+\pgf@yc=\dimen167
+\pgf@xd=\dimen168
+\pgf@yd=\dimen169
+\w@pgf@writea=\write3
+\r@pgf@reada=\read2
+\c@pgf@counta=\count268
+\c@pgf@countb=\count269
+\c@pgf@countc=\count270
+\c@pgf@countd=\count271
+\t@pgf@toka=\toks28
+\t@pgf@tokb=\toks29
+\t@pgf@tokc=\toks30
+\pgf@sys@id@count=\count272
+
+(C:\Users\kales\AppData\Local\MiKTeX\tex/generic/pgf/systemlayer\pgf.cfg
+File: pgf.cfg 2020/12/27 v3.1.8b (3.1.8b)
+)
+Driver file for pgf: pgfsys-pdftex.def
+
+(C:\Users\kales\AppData\Local\MiKTeX\tex/generic/pgf/systemlayer\pgfsys-pdftex.
+def
+File: pgfsys-pdftex.def 2020/12/27 v3.1.8b (3.1.8b)
+
+(C:\Users\kales\AppData\Local\MiKTeX\tex/generic/pgf/systemlayer\pgfsys-common-
+pdf.def
+File: pgfsys-common-pdf.def 2020/12/27 v3.1.8b (3.1.8b)
+)))
+(C:\Users\kales\AppData\Local\MiKTeX\tex/generic/pgf/systemlayer\pgfsyssoftpath
+.code.tex
+File: pgfsyssoftpath.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgfsyssoftpath@smallbuffer@items=\count273
+\pgfsyssoftpath@bigbuffer@items=\count274
+)
+(C:\Users\kales\AppData\Local\MiKTeX\tex/generic/pgf/systemlayer\pgfsysprotocol
+.code.tex
+File: pgfsysprotocol.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+)) (C:\Users\kales\AppData\Local\MiKTeX\tex/latex/xcolor\xcolor.sty
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+
+(C:\Users\kales\AppData\Local\MiKTeX\tex/latex/graphics-cfg\color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+)
+(C:\Users\kales\AppData\Local\MiKTeX\tex/generic/pgf/basiclayer\pgfcore.code.te
+x
+Package: pgfcore 2020/12/27 v3.1.8b (3.1.8b)
+ (C:\Users\kales\AppData\Local\MiKTeX\tex/generic/pgf/math\pgfmath.code.tex
+(C:\Users\kales\AppData\Local\MiKTeX\tex/generic/pgf/math\pgfmathcalc.code.tex
+(C:\Users\kales\AppData\Local\MiKTeX\tex/generic/pgf/math\pgfmathutil.code.tex)
+
+(C:\Users\kales\AppData\Local\MiKTeX\tex/generic/pgf/math\pgfmathparser.code.te
+x
+\pgfmath@dimen=\dimen170
+\pgfmath@count=\count275
+\pgfmath@box=\box50
+\pgfmath@toks=\toks31
+\pgfmath@stack@operand=\toks32
+\pgfmath@stack@operation=\toks33
+)
+(C:\Users\kales\AppData\Local\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.code
+.tex
+(C:\Users\kales\AppData\Local\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.basi
+c.code.tex)
+(C:\Users\kales\AppData\Local\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.trig
+onometric.code.tex)
+(C:\Users\kales\AppData\Local\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.rand
+om.code.tex)
+(C:\Users\kales\AppData\Local\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.comp
+arison.code.tex)
+(C:\Users\kales\AppData\Local\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.base
+.code.tex)
+(C:\Users\kales\AppData\Local\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.roun
+d.code.tex)
+(C:\Users\kales\AppData\Local\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.misc
+.code.tex)
+(C:\Users\kales\AppData\Local\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.inte
+gerarithmetics.code.tex)))
+(C:\Users\kales\AppData\Local\MiKTeX\tex/generic/pgf/math\pgfmathfloat.code.tex
+\c@pgfmathroundto@lastzeros=\count276
+)) (C:\Users\kales\AppData\Local\MiKTeX\tex/generic/pgf/math\pgfint.code.tex)
+(C:\Users\kales\AppData\Local\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepoints.c
+ode.tex
+File: pgfcorepoints.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgf@picminx=\dimen171
+\pgf@picmaxx=\dimen172
+\pgf@picminy=\dimen173
+\pgf@picmaxy=\dimen174
+\pgf@pathminx=\dimen175
+\pgf@pathmaxx=\dimen176
+\pgf@pathminy=\dimen177
+\pgf@pathmaxy=\dimen178
+\pgf@xx=\dimen179
+\pgf@xy=\dimen180
+\pgf@yx=\dimen181
+\pgf@yy=\dimen182
+\pgf@zx=\dimen183
+\pgf@zy=\dimen184
+)
+(C:\Users\kales\AppData\Local\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepathcons
+truct.code.tex
+File: pgfcorepathconstruct.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgf@path@lastx=\dimen185
+\pgf@path@lasty=\dimen186
+)
+(C:\Users\kales\AppData\Local\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepathusag
+e.code.tex
+File: pgfcorepathusage.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgf@shorten@end@additional=\dimen187
+\pgf@shorten@start@additional=\dimen188
+)
+(C:\Users\kales\AppData\Local\MiKTeX\tex/generic/pgf/basiclayer\pgfcorescopes.c
+ode.tex
+File: pgfcorescopes.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgfpic=\box51
+\pgf@hbox=\box52
+\pgf@layerbox@main=\box53
+\pgf@picture@serial@count=\count277
+)
+(C:\Users\kales\AppData\Local\MiKTeX\tex/generic/pgf/basiclayer\pgfcoregraphics
+tate.code.tex
+File: pgfcoregraphicstate.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgflinewidth=\dimen189
+)
+(C:\Users\kales\AppData\Local\MiKTeX\tex/generic/pgf/basiclayer\pgfcoretransfor
+mations.code.tex
+File: pgfcoretransformations.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgf@pt@x=\dimen190
+\pgf@pt@y=\dimen191
+\pgf@pt@temp=\dimen192
+)
+(C:\Users\kales\AppData\Local\MiKTeX\tex/generic/pgf/basiclayer\pgfcorequick.co
+de.tex
+File: pgfcorequick.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+)
+(C:\Users\kales\AppData\Local\MiKTeX\tex/generic/pgf/basiclayer\pgfcoreobjects.
+code.tex
+File: pgfcoreobjects.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+)
+(C:\Users\kales\AppData\Local\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepathproc
+essing.code.tex
+File: pgfcorepathprocessing.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+)
+(C:\Users\kales\AppData\Local\MiKTeX\tex/generic/pgf/basiclayer\pgfcorearrows.c
+ode.tex
+File: pgfcorearrows.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgfarrowsep=\dimen193
+)
+(C:\Users\kales\AppData\Local\MiKTeX\tex/generic/pgf/basiclayer\pgfcoreshade.co
+de.tex
+File: pgfcoreshade.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgf@max=\dimen194
+\pgf@sys@shading@range@num=\count278
+\pgf@shadingcount=\count279
+)
+(C:\Users\kales\AppData\Local\MiKTeX\tex/generic/pgf/basiclayer\pgfcoreimage.co
+de.tex
+File: pgfcoreimage.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+
+(C:\Users\kales\AppData\Local\MiKTeX\tex/generic/pgf/basiclayer\pgfcoreexternal
+.code.tex
+File: pgfcoreexternal.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgfexternal@startupbox=\box54
+))
+(C:\Users\kales\AppData\Local\MiKTeX\tex/generic/pgf/basiclayer\pgfcorelayers.c
+ode.tex
+File: pgfcorelayers.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+)
+(C:\Users\kales\AppData\Local\MiKTeX\tex/generic/pgf/basiclayer\pgfcoretranspar
+ency.code.tex
+File: pgfcoretransparency.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+)
+(C:\Users\kales\AppData\Local\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepatterns
+.code.tex
+File: pgfcorepatterns.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+)
+(C:\Users\kales\AppData\Local\MiKTeX\tex/generic/pgf/basiclayer\pgfcorerdf.code
+.tex
+File: pgfcorerdf.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+)))
+(C:\Users\kales\AppData\Local\MiKTeX\tex/generic/pgf/modules\pgfmoduleshapes.co
+de.tex
+File: pgfmoduleshapes.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgfnodeparttextbox=\box55
+)
+(C:\Users\kales\AppData\Local\MiKTeX\tex/generic/pgf/modules\pgfmoduleplot.code
+.tex
+File: pgfmoduleplot.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+)
+(C:\Users\kales\AppData\Local\MiKTeX\tex/latex/pgf/compatibility\pgfcomp-versio
+n-0-65.sty
+Package: pgfcomp-version-0-65 2020/12/27 v3.1.8b (3.1.8b)
+\pgf@nodesepstart=\dimen195
+\pgf@nodesepend=\dimen196
+)
+(C:\Users\kales\AppData\Local\MiKTeX\tex/latex/pgf/compatibility\pgfcomp-versio
+n-1-18.sty
+Package: pgfcomp-version-1-18 2020/12/27 v3.1.8b (3.1.8b)
+))
+(C:\Users\kales\AppData\Local\MiKTeX\tex/latex/pgf/utilities\pgffor.sty
+(C:\Users\kales\AppData\Local\MiKTeX\tex/latex/pgf/utilities\pgfkeys.sty
+(C:\Users\kales\AppData\Local\MiKTeX\tex/generic/pgf/utilities\pgfkeys.code.tex
+)) (C:\Users\kales\AppData\Local\MiKTeX\tex/latex/pgf/math\pgfmath.sty
+(C:\Users\kales\AppData\Local\MiKTeX\tex/generic/pgf/math\pgfmath.code.tex))
+(C:\Users\kales\AppData\Local\MiKTeX\tex/generic/pgf/utilities\pgffor.code.tex
+Package: pgffor 2020/12/27 v3.1.8b (3.1.8b)
+
+(C:\Users\kales\AppData\Local\MiKTeX\tex/generic/pgf/math\pgfmath.code.tex)
+\pgffor@iter=\dimen197
+\pgffor@skip=\dimen198
+\pgffor@stack=\toks34
+\pgffor@toks=\toks35
+))
+(C:\Users\kales\AppData\Local\MiKTeX\tex/generic/pgf/frontendlayer/tikz\tikz.co
+de.tex
+Package: tikz 2020/12/27 v3.1.8b (3.1.8b)
+
+(C:\Users\kales\AppData\Local\MiKTeX\tex/generic/pgf/libraries\pgflibraryplotha
+ndlers.code.tex
+File: pgflibraryplothandlers.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgf@plot@mark@count=\count280
+\pgfplotmarksize=\dimen199
+)
+\tikz@lastx=\dimen256
+\tikz@lasty=\dimen257
+\tikz@lastxsaved=\dimen258
+\tikz@lastysaved=\dimen259
+\tikz@lastmovetox=\dimen260
+\tikz@lastmovetoy=\dimen261
+\tikzleveldistance=\dimen262
+\tikzsiblingdistance=\dimen263
+\tikz@figbox=\box56
+\tikz@figbox@bg=\box57
+\tikz@tempbox=\box58
+\tikz@tempbox@bg=\box59
+\tikztreelevel=\count281
+\tikznumberofchildren=\count282
+\tikznumberofcurrentchild=\count283
+\tikz@fig@count=\count284
+
+(C:\Users\kales\AppData\Local\MiKTeX\tex/generic/pgf/modules\pgfmodulematrix.co
+de.tex
+File: pgfmodulematrix.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgfmatrixcurrentrow=\count285
+\pgfmatrixcurrentcolumn=\count286
+\pgf@matrix@numberofcolumns=\count287
+)
+\tikz@expandcount=\count288
+
+(C:\Users\kales\AppData\Local\MiKTeX\tex/generic/pgf/frontendlayer/tikz/librari
+es\tikzlibrarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+)))
+(C:\Users\kales\AppData\Local\MiKTeX\tex/generic/babel\babel.sty
+Package: babel 2021/01/26 3.53 The Babel package
+
+(C:\Users\kales\AppData\Local\MiKTeX\tex/generic/babel\babel.def
+File: babel.def 2021/01/26 3.53 Babel common definitions
+\babel@savecnt=\count289
+\U@D=\dimen264
+\l@babelnohyphens=\language79
+
+(C:\Users\kales\AppData\Local\MiKTeX\tex/generic/babel\txtbabel.def)
+\bbl@readstream=\read3
+)
+\bbl@dirlevel=\count290
+
+*************************************
+* Local config file bblopts.cfg used
+*
+(C:\Users\kales\AppData\Local\MiKTeX\tex/latex/arabi\bblopts.cfg
+File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
+ babel
+)
+(C:\Users\kales\AppData\Local\MiKTeX\tex/latex/babel-english\english.ldf
+Language: english 2017/06/06 v3.3r English support from the babel system
+Package babel Info: \l@canadian = using hyphenrules for english
+(babel)             (\language0) on input line 102.
+Package babel Info: \l@australian = using hyphenrules for ukenglish
+(babel)             (\language73) on input line 105.
+Package babel Info: \l@newzealand = using hyphenrules for ukenglish
+(babel)             (\language73) on input line 108.
+))
+(C:\Users\kales\AppData\Local\MiKTeX\tex/latex/amscls\amsthm.sty
+Package: amsthm 2020/05/29 v2.20.6
+\thm@style=\toks36
+\thm@bodyfont=\toks37
+\thm@headfont=\toks38
+\thm@notefont=\toks39
+\thm@headpunct=\toks40
+\thm@preskip=\skip52
+\thm@postskip=\skip53
+\thm@headsep=\skip54
+\dth@everypar=\toks41
+)
+(C:\Users\kales\AppData\Local\MiKTeX\tex/latex/mathtools\mathtools.sty
+Package: mathtools 2022/06/29 v1.29 mathematical typesetting tools
+
+(C:\Users\kales\AppData\Local\MiKTeX\tex/latex/latex-tools\calc.sty
+Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count291
+\calc@Bcount=\count292
+\calc@Adimen=\dimen265
+\calc@Bdimen=\dimen266
+\calc@Askip=\skip55
+\calc@Bskip=\skip56
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count293
+\calc@Cskip=\skip57
+)
+(C:\Users\kales\AppData\Local\MiKTeX\tex/latex/mathtools\mhsetup.sty
+Package: mhsetup 2021/03/18 v1.4 programming setup (MH)
+)
+\g_MT_multlinerow_int=\count294
+\l_MT_multwidth_dim=\dimen267
+\origjot=\skip58
+\l_MT_shortvdotswithinadjustabove_dim=\dimen268
+\l_MT_shortvdotswithinadjustbelow_dim=\dimen269
+\l_MT_above_intertext_sep=\dimen270
+\l_MT_below_intertext_sep=\dimen271
+\l_MT_above_shortintertext_sep=\dimen272
+\l_MT_below_shortintertext_sep=\dimen273
+\xmathstrut@box=\box60
+\xmathstrut@dim=\dimen274
+)
+(C:\Users\kales\AppData\Local\MiKTeX\tex/latex/ulem\ulem.sty
+\UL@box=\box61
+\UL@hyphenbox=\box62
+\UL@skip=\skip59
+\UL@hook=\toks42
+\UL@height=\dimen275
+\UL@pe=\count295
+\UL@pixel=\dimen276
+\ULC@box=\box63
+Package: ulem 2019/11/18
+\ULdepth=\dimen277
+)
+(C:\Users\kales\AppData\Local\MiKTeX\tex/latex/enumitem\enumitem.sty
+Package: enumitem 2019/06/20 v3.9 Customized lists
+\labelindent=\skip60
+\enit@outerparindent=\dimen278
+\enit@toks=\toks43
+\enit@inbox=\box64
+\enit@count@id=\count296
+\enitdp@description=\count297
+)
+(C:\Users\kales\AppData\Local\MiKTeX\tex/latex/hyperref\hyperref.sty
+Package: hyperref 2021-02-10 v7.00j Hypertext links for LaTeX
+
+(C:\Users\kales\AppData\Local\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty
+Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
+)
+(C:\Users\kales\AppData\Local\MiKTeX\tex/generic/pdftexcmds\pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(C:\Users\kales\AppData\Local\MiKTeX\tex/generic/infwarerr\infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+(C:\Users\kales\AppData\Local\MiKTeX\tex/latex/kvsetkeys\kvsetkeys.sty
+Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
+)
+(C:\Users\kales\AppData\Local\MiKTeX\tex/generic/kvdefinekeys\kvdefinekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+) (C:\Users\kales\AppData\Local\MiKTeX\tex/generic/pdfescape\pdfescape.sty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+)
+(C:\Users\kales\AppData\Local\MiKTeX\tex/latex/hycolor\hycolor.sty
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+)
+(C:\Users\kales\AppData\Local\MiKTeX\tex/latex/letltxmacro\letltxmacro.sty
+Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
+)
+(C:\Users\kales\AppData\Local\MiKTeX\tex/latex/auxhook\auxhook.sty
+Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
+)
+(C:\Users\kales\AppData\Local\MiKTeX\tex/latex/kvoptions\kvoptions.sty
+Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
+)
+\@linkdim=\dimen279
+\Hy@linkcounter=\count298
+\Hy@pagecounter=\count299
+
+(C:\Users\kales\AppData\Local\MiKTeX\tex/latex/hyperref\pd1enc.def
+File: pd1enc.def 2021-02-10 v7.00j Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+)
+(C:\Users\kales\AppData\Local\MiKTeX\tex/latex/hyperref\hyperref-langpatches.de
+f
+File: hyperref-langpatches.def 2021-02-10 v7.00j Hyperref: patches for babel la
+nguages
+) (C:\Users\kales\AppData\Local\MiKTeX\tex/generic/intcalc\intcalc.sty
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+)
+(C:\Users\kales\AppData\Local\MiKTeX\tex/generic/etexcmds\etexcmds.sty
+Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
+)
+\Hy@SavedSpaceFactor=\count300
+
+(C:\Users\kales\AppData\Local\MiKTeX\tex/latex/hyperref\puenc.def
+File: puenc.def 2021-02-10 v7.00j Hyperref: PDF Unicode definition (HO)
+Now handling font encoding PU ...
+... no UTF-8 mapping file for font encoding PU
+)
+Package hyperref Info: Hyper figures OFF on input line 4192.
+Package hyperref Info: Link nesting OFF on input line 4197.
+Package hyperref Info: Hyper index ON on input line 4200.
+Package hyperref Info: Plain pages OFF on input line 4207.
+Package hyperref Info: Backreferencing OFF on input line 4212.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4445.
+\c@Hy@tempcnt=\count301
+
+(C:\Users\kales\AppData\Local\MiKTeX\tex/latex/url\url.sty
+\Urlmuskip=\muskip17
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 4804.
+\XeTeXLinkMargin=\dimen280
+
+(C:\Users\kales\AppData\Local\MiKTeX\tex/generic/bitset\bitset.sty
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+
+(C:\Users\kales\AppData\Local\MiKTeX\tex/generic/bigintcalc\bigintcalc.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
+)
+))
+\Fld@menulength=\count302
+\Field@Width=\dimen281
+\Fld@charsize=\dimen282
+Package hyperref Info: Hyper figures OFF on input line 6075.
+Package hyperref Info: Link nesting OFF on input line 6080.
+Package hyperref Info: Hyper index ON on input line 6083.
+Package hyperref Info: backreferencing OFF on input line 6090.
+Package hyperref Info: Link coloring OFF on input line 6095.
+Package hyperref Info: Link coloring with OCG OFF on input line 6100.
+Package hyperref Info: PDF/A mode OFF on input line 6105.
+LaTeX Info: Redefining \ref on input line 6145.
+LaTeX Info: Redefining \pageref on input line 6149.
+
+(C:\Users\kales\AppData\Local\MiKTeX\tex/latex/base\atbegshi-ltx.sty
+Package: atbegshi-ltx 2020/08/17 v1.0a Emulation of the original atbegshi packa
+ge
+with kernel methods
+)
+\Hy@abspage=\count303
+\c@Item=\count304
+\c@Hfootnote=\count305
+)
+Package hyperref Info: Driver (autodetected): hpdftex.
+
+(C:\Users\kales\AppData\Local\MiKTeX\tex/latex/hyperref\hpdftex.def
+File: hpdftex.def 2021-02-10 v7.00j Hyperref driver for pdfTeX
+
+(C:\Users\kales\AppData\Local\MiKTeX\tex/latex/base\atveryend-ltx.sty
+Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atvery packag
+e
+with kernel methods
+)
+\Fld@listcount=\count306
+\c@bookmark@seq@number=\count307
+
+(C:\Users\kales\AppData\Local\MiKTeX\tex/latex/rerunfilecheck\rerunfilecheck.st
+y
+Package: rerunfilecheck 2022-07-10 v1.10 Rerun checks for auxiliary files (HO)
+
+(C:\Users\kales\AppData\Local\MiKTeX\tex/generic/uniquecounter\uniquecounter.st
+y
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
+)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+85.
+)
+\Hy@SectionHShift=\skip61
+) (C:\Users\kales\AppData\Local\MiKTeX\tex/latex/fancyhdr\fancyhdr.sty
+Package: fancyhdr 2022/11/09 v4.1 Extensive control of page headers and footers
+
+\f@nch@headwidth=\skip62
+\f@nch@O@elh=\skip63
+\f@nch@O@erh=\skip64
+\f@nch@O@olh=\skip65
+\f@nch@O@orh=\skip66
+\f@nch@O@elf=\skip67
+\f@nch@O@erf=\skip68
+\f@nch@O@olf=\skip69
+\f@nch@O@orf=\skip70
+)
+(C:\Users\kales\AppData\Local\MiKTeX\tex/latex/caption\subcaption.sty
+Package: subcaption 2023/07/28 v1.6b Sub-captions (AR)
+
+(C:\Users\kales\AppData\Local\MiKTeX\tex/latex/caption\caption.sty
+Package: caption 2023/08/05 v3.6o Customizing captions (AR)
+
+(C:\Users\kales\AppData\Local\MiKTeX\tex/latex/caption\caption3.sty
+Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
+\caption@tempdima=\dimen283
+\captionmargin=\dimen284
+\caption@leftmargin=\dimen285
+\caption@rightmargin=\dimen286
+\caption@width=\dimen287
+\caption@indent=\dimen288
+\caption@parindent=\dimen289
+\caption@hangindent=\dimen290
+Package caption Info: Standard document class detected.
+)
+\c@caption@flags=\count308
+\c@continuedfloat=\count309
+Package caption Info: hyperref package is loaded.
+)
+Package caption Info: New subtype `subfigure' on input line 238.
+\c@subfigure=\count310
+Package caption Info: New subtype `subtable' on input line 238.
+\c@subtable=\count311
+)
+(C:\Users\kales\AppData\Local\MiKTeX\tex/latex/unitsdef\unitsdef.sty
+Package: unitsdef 2005/01/04 v0.2 Typesetting units
+File: unitsdef.dtx 2004/01/05 Typesetting units a proper way
+
+(C:\Users\kales\AppData\Local\MiKTeX\tex/latex/base\fontenc.sty
+Package: fontenc 2020/08/10 v2.0s Standard LaTeX package
+)
+(C:\Users\kales\AppData\Local\MiKTeX\tex/latex/base\textcomp.sty
+Package: textcomp 2020/02/02 v2.0n Standard LaTeX package
+)
+(C:\Users\kales\AppData\Local\MiKTeX\tex/latex/units\units.sty
+Package: units 1998/08/04 v0.9b Typesetting units
+
+(C:\Users\kales\AppData\Local\MiKTeX\tex/latex/base\ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+(C:\Users\kales\AppData\Local\MiKTeX\tex/latex/units\nicefrac.sty
+Package: nicefrac 1998/08/04 v0.9b Nice fractions
+\L@UnitsRaiseDisplaystyle=\skip71
+\L@UnitsRaiseTextstyle=\skip72
+\L@UnitsRaiseScriptstyle=\skip73
+))
+(C:\Users\kales\AppData\Local\MiKTeX\tex/latex/latex-tools\xspace.sty
+Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
+)
+LaTeX Info: Redefining \SI on input line 293.
+LaTeX Info: Redefining \meter on input line 331.
+LaTeX Info: Redefining \gram on input line 332.
+LaTeX Info: Redefining \kilogram on input line 333.
+LaTeX Info: Redefining \mole on input line 334.
+LaTeX Info: Redefining \second on input line 335.
+LaTeX Info: Redefining \ampere on input line 336.
+LaTeX Info: Redefining \kelvin on input line 337.
+LaTeX Info: Redefining \candela on input line 338.
+LaTeX Info: Redefining \picometer on input line 341.
+LaTeX Info: Redefining \nanometer on input line 342.
+LaTeX Info: Redefining \micrometer on input line 343.
+LaTeX Info: Redefining \millimeter on input line 344.
+LaTeX Info: Redefining \centimeter on input line 345.
+LaTeX Info: Redefining \decimeter on input line 346.
+LaTeX Info: Redefining \kilometer on input line 347.
+LaTeX Info: Redefining \femtogram on input line 350.
+LaTeX Info: Redefining \picogram on input line 351.
+LaTeX Info: Redefining \nanogram on input line 352.
+LaTeX Info: Redefining \microgram on input line 353.
+LaTeX Info: Redefining \milligram on input line 354.
+LaTeX Info: Redefining \femtomole on input line 357.
+LaTeX Info: Redefining \picomole on input line 358.
+LaTeX Info: Redefining \nanomole on input line 359.
+LaTeX Info: Redefining \micromole on input line 360.
+LaTeX Info: Redefining \millimole on input line 361.
+LaTeX Info: Redefining \attosecond on input line 364.
+LaTeX Info: Redefining \femtosecond on input line 365.
+LaTeX Info: Redefining \picosecond on input line 366.
+LaTeX Info: Redefining \nanosecond on input line 367.
+LaTeX Info: Redefining \microsecond on input line 368.
+LaTeX Info: Redefining \millisecond on input line 369.
+LaTeX Info: Redefining \picoampere on input line 372.
+LaTeX Info: Redefining \nanoampere on input line 373.
+LaTeX Info: Redefining \microampere on input line 374.
+LaTeX Info: Redefining \milliampere on input line 375.
+LaTeX Info: Redefining \kiloampere on input line 376.
+LaTeX Info: Redefining \percent on input line 379.
+LaTeX Info: Redefining \liter on input line 385.
+LaTeX Info: Redefining \femtoliter on input line 388.
+LaTeX Info: Redefining \picoliter on input line 389.
+LaTeX Info: Redefining \nanoliter on input line 390.
+LaTeX Info: Redefining \microliter on input line 391.
+LaTeX Info: Redefining \milliliter on input line 392.
+LaTeX Info: Redefining \centiliter on input line 393.
+LaTeX Info: Redefining \deciliter on input line 394.
+LaTeX Info: Redefining \hectoliter on input line 395.
+LaTeX Info: Redefining \cubicmeter on input line 397.
+LaTeX Info: Redefining \cubicmicrometer on input line 398.
+LaTeX Info: Redefining \cubicmillimeter on input line 399.
+LaTeX Info: Redefining \squaremeter on input line 402.
+LaTeX Info: Redefining \ar on input line 404.
+LaTeX Info: Redefining \hektar on input line 405.
+LaTeX Info: Redefining \squarecentimeter on input line 407.
+LaTeX Info: Redefining \squaremillimeter on input line 408.
+LaTeX Info: Redefining \squarekilometer on input line 409.
+LaTeX Info: Redefining \ton on input line 411.
+LaTeX Info: Redefining \volt on input line 414.
+LaTeX Info: Redefining \millivolt on input line 415.
+LaTeX Info: Redefining \kilovolt on input line 417.
+LaTeX Info: Redefining \watt on input line 419.
+LaTeX Info: Redefining \milliwatt on input line 420.
+LaTeX Info: Redefining \kilowatt on input line 421.
+LaTeX Info: Redefining \megawatt on input line 422.
+LaTeX Info: Redefining \coulomb on input line 424.
+LaTeX Info: Redefining \ohm on input line 432.
+LaTeX Info: Redefining \kiloohm on input line 434.
+LaTeX Info: Redefining \megaohm on input line 435.
+LaTeX Info: Redefining \gigaohm on input line 436.
+LaTeX Info: Redefining \siemens on input line 438.
+LaTeX Info: Redefining \millisiemens on input line 439.
+LaTeX Info: Redefining \farad on input line 440.
+LaTeX Info: Redefining \femtofarad on input line 441.
+LaTeX Info: Redefining \picofarad on input line 442.
+LaTeX Info: Redefining \nanofarad on input line 443.
+LaTeX Info: Redefining \microfarad on input line 444.
+LaTeX Info: Redefining \millifarad on input line 445.
+LaTeX Info: Redefining \joule on input line 446.
+LaTeX Info: Redefining \millijoule on input line 447.
+LaTeX Info: Redefining \kilojoule on input line 448.
+LaTeX Info: Redefining \megajoule on input line 449.
+LaTeX Info: Redefining \calory on input line 451.
+LaTeX Info: Redefining \kilocalory on input line 452.
+LaTeX Info: Redefining \electronvolt on input line 453.
+LaTeX Info: Redefining \millielectronvolt on input line 454.
+LaTeX Info: Redefining \kiloelectronvolt on input line 455.
+LaTeX Info: Redefining \megaelectronvolt on input line 456.
+LaTeX Info: Redefining \gigaelectronvolt on input line 457.
+LaTeX Info: Redefining \teraelectronvolt on input line 458.
+LaTeX Info: Redefining \minute on input line 460.
+LaTeX Info: Redefining \hour on input line 461.
+LaTeX Info: Redefining \days on input line 462.
+LaTeX Info: Redefining \celsius on input line 467.
+LaTeX Info: Redefining \radian on input line 470.
+LaTeX Info: Redefining \steradian on input line 471.
+LaTeX Info: Redefining \degree on input line 476.
+LaTeX Info: Redefining \arcmin on input line 480.
+LaTeX Info: Redefining \arcsec on input line 481.
+LaTeX Info: Redefining \hertz on input line 517.
+LaTeX Info: Redefining \kilohertz on input line 518.
+LaTeX Info: Redefining \megahertz on input line 519.
+LaTeX Info: Redefining \gigahertz on input line 520.
+LaTeX Info: Redefining \newton on input line 522.
+LaTeX Info: Redefining \millinewton on input line 523.
+LaTeX Info: Redefining \kilonewton on input line 524.
+LaTeX Info: Redefining \pascal on input line 525.
+LaTeX Info: Redefining \hectopascal on input line 526.
+LaTeX Info: Redefining \uBar on input line 527.
+LaTeX Info: Redefining \millibar on input line 528.
+LaTeX Info: Redefining \weber on input line 529.
+LaTeX Info: Redefining \tesla on input line 530.
+LaTeX Info: Redefining \henry on input line 531.
+LaTeX Info: Redefining \lumen on input line 532.
+LaTeX Info: Redefining \lux on input line 533.
+LaTeX Info: Redefining \becquerel on input line 534.
+LaTeX Info: Redefining \megabecquerel on input line 535.
+LaTeX Info: Redefining \curie on input line 536.
+LaTeX Info: Redefining \sievert on input line 537.
+LaTeX Info: Redefining \millisievert on input line 538.
+Package unitsdef Info: Abbreviations for units of amperage loaded. on input lin
+e 543.
+
+(C:\Users\kales\AppData\Local\MiKTeX\tex/latex/unitsdef/config\ampabbrv.cfg
+File: ampabbrv 2004/12/09 v0.1 unitsdef configuration file
+)
+Package unitsdef Info: Abbreviations for units of frequency loaded. on input li
+ne 548.
+
+(C:\Users\kales\AppData\Local\MiKTeX\tex/latex/unitsdef/config\freqabbr.cfg
+File: freqabbr 2004/12/09 v0.1 unitsdef configuration file
+)
+Package unitsdef Info: Abbreviations for units of amount of substances loaded. 
+on input line 553.
+
+(C:\Users\kales\AppData\Local\MiKTeX\tex/latex/unitsdef/config\molabbrv.cfg
+File: molabbrv 2004/12/09 v0.1 unitsdef configuration file
+)
+Package unitsdef Info: Abbreviations for units of voltage loaded. on input line
+ 558.
+
+(C:\Users\kales\AppData\Local\MiKTeX\tex/latex/unitsdef/config\voltabbr.cfg
+File: voltabbr 2004/12/09 v0.1 unitsdef configuration file
+)
+Package unitsdef Info: Abbreviations for units of volume loaded. on input line 
+563.
+
+(C:\Users\kales\AppData\Local\MiKTeX\tex/latex/unitsdef/config\volabbrv.cfg
+File: volabbrv 2004/12/09 v0.1 unitsdef configuration file
+)
+Package unitsdef Info: Abbreviations for units of weight loaded. on input line 
+568.
+
+(C:\Users\kales\AppData\Local\MiKTeX\tex/latex/unitsdef/config\weigabbr.cfg
+File: weigabbr 2004/12/09 v0.1 unitsdef configuration file
+)
+Package unitsdef Info: Abbreviations for units of energy loaded. on input line 
+573.
+
+(C:\Users\kales\AppData\Local\MiKTeX\tex/latex/unitsdef/config\enerabbr.cfg
+File: enerabbr 2004/12/09 v0.1 unitsdef configuration file
+)
+Package unitsdef Info: Abbreviations for units of length loaded. on input line 
+578.
+
+(C:\Users\kales\AppData\Local\MiKTeX\tex/latex/unitsdef/config\lengabbr.cfg
+File: lengabbr 2004/12/09 v0.1 unitsdef configuration file
+)
+Package unitsdef Info: Abbreviations for units of time loaded. on input line 58
+3.
+
+(C:\Users\kales\AppData\Local\MiKTeX\tex/latex/unitsdef/config\timeabbr.cfg
+File: timeabbr 2004/12/09 v0.1 unitsdef configuration file
+)
+Package unitsdef Info: No local config file found. on input line 589.
+)
+(C:\Users\kales\AppData\Local\MiKTeX\tex/latex/float\float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count312
+\float@exts=\toks44
+\float@box=\box65
+\@float@everytoks=\toks45
+\@floatcapt=\box66
+)
+\c@theorem=\count313
+\c@corollary=\count314
+
+(C:\Users\kales\AppData\Local\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
+File: l3backend-pdftex.def 2021-02-18 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count315
+\l__pdf_internal_box=\box67
+)
+(PHYS 506 HW 2.aux)
+\openout1 = `"PHYS 506 HW 2.aux"'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: <default>
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(72.26999pt, 469.75502pt, 72.26999pt)
+* v-part:(T,H,B)=(72.26999pt, 650.43001pt, 72.26999pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=469.75502pt
+* \textheight=650.43001pt
+* \oddsidemargin=0.0pt
+* \evensidemargin=0.0pt
+* \topmargin=-37.0pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=10.0pt
+* \footskip=30.0pt
+* \marginparwidth=65.0pt
+* \marginparsep=11.0pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+(C:\Users\kales\AppData\Local\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count316
+\scratchdimen=\dimen291
+\scratchbox=\box68
+\nofMPsegments=\count317
+\nofMParguments=\count318
+\everyMPshowfont=\toks46
+\MPscratchCnt=\count319
+\MPscratchDim=\dimen292
+\MPnumerator=\count320
+\makeMPintoPDFobject=\count321
+\everyMPtoPDFconversion=\toks47
+) (C:\Users\kales\AppData\Local\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+)
+Package hyperref Info: Link coloring OFF on input line 43.
+ (C:\Users\kales\AppData\Local\MiKTeX\tex/latex/hyperref\nameref.sty
+Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
+
+(C:\Users\kales\AppData\Local\MiKTeX\tex/latex/refcount\refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+)
+(C:\Users\kales\AppData\Local\MiKTeX\tex/generic/gettitlestring\gettitlestring.
+sty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+)
+\c@section@level=\count322
+)
+LaTeX Info: Redefining \ref on input line 43.
+LaTeX Info: Redefining \pageref on input line 43.
+LaTeX Info: Redefining \nameref on input line 43.
+ (PHYS 506 HW 2.out) (PHYS 506 HW 2.out)
+\@outlinefile=\write4
+\openout4 = `"PHYS 506 HW 2.out"'.
+
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: float package is loaded.
+Package caption Info: End \AtBeginDocument code.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 57.
+
+
+(C:\Users\kales\AppData\Local\MiKTeX\tex/latex/amsfonts\umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 57.
+
+
+(C:\Users\kales\AppData\Local\MiKTeX\tex/latex/amsfonts\umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 5
+9.
+
+(C:\Users\kales\AppData\Local\MiKTeX\tex/latex/base\t1cmtt.fd
+File: t1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
+) [1{C:/Users/kales/AppData/Local/MiKTeX/pdftex/config/pdftex.map}
+
+]
+
+Package amsmath Warning: Foreign command \atopwithdelims;
+(amsmath)                \frac or \genfrac should be used instead
+(amsmath)                 on input line 111.
+
+[2] (PHYS 506 HW 2.aux)
+Package rerunfilecheck Info: File `"PHYS 506 HW 2".out' has not changed.
+(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
+ ) 
+Here is how much of TeX's memory you used:
+ 23549 strings out of 479334
+ 421570 string characters out of 2861332
+ 730958 words of memory out of 3000000
+ 40552 multiletter control sequences out of 15000+200000
+ 410170 words of font info for 43 fonts, out of 3000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 113i,11n,116p,508b,346s stack positions out of 5000i,500n,10000p,200000b,50000s
+ <C:\Users\kales\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt
+1000.pk> <C:\Users\kales\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi60
+0\ecbx1200.pk> <C:\Users\kales\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec
+/dpi600\ecbx1000.pk> <C:\Users\kales\AppData\Local\MiKTeX\fonts/pk/ljfour/jknap
+pen/ec/dpi600\ecrm1200.pk> <C:\Users\kales\AppData\Local\MiKTeX\fonts/pk/ljfour
+/jknappen/ec/dpi600\ecbx1440.pk> <C:\Users\kales\AppData\Local\MiKTeX\fonts/pk/
+ljfour/jknappen/ec/dpi600\ecrm1000.pk><C:/Users/kales/AppData/Local/MiKTeX/font
+s/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/kales/AppData/Local/MiKTeX/font
+s/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/kales/AppData/Local/MiKTeX/font
+s/type1/public/amsfonts/cm/cmmi5.pfb><C:/Users/kales/AppData/Local/MiKTeX/fonts
+/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/kales/AppData/Local/MiKTeX/fonts/
+type1/public/amsfonts/cm/cmr10.pfb><C:/Users/kales/AppData/Local/MiKTeX/fonts/t
+ype1/public/amsfonts/cm/cmr5.pfb><C:/Users/kales/AppData/Local/MiKTeX/fonts/typ
+e1/public/amsfonts/cm/cmr7.pfb><C:/Users/kales/AppData/Local/MiKTeX/fonts/type1
+/public/amsfonts/cm/cmsy10.pfb><C:/Users/kales/AppData/Local/MiKTeX/fonts/type1
+/public/amsfonts/cm/cmsy5.pfb><C:/Users/kales/AppData/Local/MiKTeX/fonts/type1/
+public/amsfonts/cm/cmsy7.pfb>
+Output written on "PHYS 506 HW 2.pdf" (2 pages, 141566 bytes).
+PDF statistics:
+ 227 PDF objects out of 1000 (max. 8388607)
+ 16 named destinations out of 1000 (max. 500000)
+ 13 words of extra memory for PDF output out of 10000 (max. 10000000)
+

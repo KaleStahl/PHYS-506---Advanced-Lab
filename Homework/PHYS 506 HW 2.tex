@@ -1,0 +1,149 @@
+\documentclass[]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[margin=1.0in]{geometry}
+\usepackage{amsmath, amsfonts}
+\usepackage{tikz}
+\usepackage[english]{babel}
+\usepackage{amsthm}
+\usepackage{mathtools}
+\usepackage{ulem}
+\usepackage{enumitem}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage{fancyhdr}
+\usepackage{subcaption}
+\usepackage{unitsdef}
+\usepackage{float}
+
+\newtheorem{theorem}{Theorem}
+\newtheorem{corollary}{Corollary}[theorem]
+\renewcommand{\theenumi}{\Alph{enumi}}
+
+\newcommand{\bd}{\textbf}
+\newcommand{\del}{\nabla}
+\newcommand{\by}{\times}
+\newcommand{\R}{\mathbb R}
+\newcommand{\C}{\mathbb C}
+\newcommand{\M}{\mathcal M}
+\newcommand{\Borel}{\mathcal B_{\mathbb R}}
+
+
+\title{PHYS 506 Homework 2}
+\date{Due 2/19}
+\author{Kale Stahl}
+
+\pagestyle{fancy}
+\fancyhf{}
+\makeatletter
+\lhead{\@title}
+\chead{\@date}
+\rhead{\@author}
+\makeatother
+
+\begin{document}
+	
+	%Makes fancy title
+	\makeatletter
+	\begin{center}
+		{\centering \Large \bd \@title}\\
+		\vspace{.5cm}
+		{\large \@author}
+		\vspace{.25cm}
+	\end{center}
+	\makeatother
+	
+	\section*{Problem 1} %Done
+		Data from the U.S. National Health and Nutrition Examination Survey conducted in
+		2007-2008 found that the distribution of heights of males between the age of 2007-		2008 are normally distributed, with mean $\bar h = 1.77$ m and standard deviation $\sigma = 0.07$ m. In a random sample from this distribution, what fraction would be expected to have height	\bd{(a)} between 1.70 and 1.84 m, \bd{(b)} more than 1.84 m, \bd{(c)} more than 2.00 m, \bd{(d)} between 1.63 and 1.70 m?
+		\subsection*{Solution}
+			To find the probabilities, we will calculate the Z-score for this distribution and the random sample, and then find the probability by referencing a Z-score table seen in \url{https://www.math.arizona.edu/~rsims/ma464/standardnormaltable.pdf}. Note that these Z-scores measure from $-\infty$ to the point in question. We see that a Z-score is calculated by
+			\[
+				Z = \frac{x - \bar h}{\sigma}
+			\]
+			So then for each situation we have:
+			\begin{enumerate}[label = \bd{(\alph*)}]
+				\item Our Z-scores are given by
+				\[
+					Z_1 = \frac{1.70\meter - 1.77\meter}{0.07 \meter} = -1.00
+				\]
+				\[
+					Z_2 = \frac{1.84\meter - 1.77\meter}{0.07 \meter} = 1.00
+				\]
+				Looking up in our table, we see $P(Z_1) = 0.15866 $ and $P(Z_2) = 0.84134$. So then our probability is given by
+				\[
+					P(x) =P(Z_2) - P(Z_1) =  0.84134 - 0.15866  = \boxed{0.68268}
+				\]
+				\item Our Z-score is given by
+				\[
+				 Z = \frac{1.84\meter - 1.77\meter}{0.07 \meter} = 1.00
+				\]
+				Looking up in our table, we see $P(Z) = 0.84134$. Since this is measured from $-\infty$, we need to subtract this from 1 and our probability is given by
+				\[
+					P(x) = 1- P(Z) = 1- 0.84134 = \boxed{0.15866}
+				\]
+				\item 
+				Our Z-score is given by
+				\[
+					Z = \frac{2.00\meter - 1.77\meter}{0.07 \meter} = 3.29
+				\]
+				Looking up in our table, we see $P(Z) = 0.99950$. Since this is measured from $-\infty$, we need to subtract this from 1 and our probability is given by
+				\[
+				P(x) = 1- P(Z) = 1- 0.99950 = \boxed{0.00050}
+				\]
+				\item Our Z-scores are given by
+				\[
+				Z_1 = \frac{1.63\meter - 1.77\meter}{0.07 \meter} = -2.00
+				\]
+				\[
+				Z_2 = \frac{1.70\meter - 1.77\meter}{0.07 \meter} = -1.00
+				\]
+				Looking up in our table, we see $P(Z_1) = .02275$ and $P(Z_2) = 0.15866$. So then our probability is given by
+				\[
+				 P(x) =P(Z_2) - P(Z_1) = 0.15866 - 0.02275  = \boxed{0.13591}
+				\] 
+			\end{enumerate}
+	\section*{Problem 2} %Done
+		I draw six times from a shuffled deck of 54 playing cards, replacing each card and
+		reshuffling the deck after each draw. There are 13 hearts in the deck. Find the probabilities Prob($k$ hearts|6 draws) that I would draw exactly $k$ hearts in six draws, for all possible values of $k$. 
+		\subsection*{Solution}
+		I am \sout{lazy} a physicist so I will just use python to spit out all 6 of the probabilities. To do this, we note that since the card is replaced we can use the binomial distribution to determine the probability (if it was not replaced, we would use the hypergeometric distribution). The explicit expression for the binomial distribution is given by
+		\[
+			P(k;n) = {n \choose k}p^{k}(1-p)^{n-k}
+		\]
+		Where $p$ is the probability of success, in our case $13/54$. So we can then calculate for all 6 values of $k$ and $n = 6$, we see
+		\begin{figure}[h]
+			\centering
+			\begin{tabular}{|c|c|}
+				\hline
+				$k$& $P(k; 6)$\\
+				\hline
+				1& 0.3645\\
+				2& 0.2889\\
+				3& 0.1221\\
+				4& 0.0290\\
+				5& 0.0037\\
+				6& 0.0002\\
+				\hline
+			\end{tabular}
+		\end{figure}
+	\section*{Problem 3} %Done
+		The expected mean count in a certain counting experiment is $\mu = 18.6$. \bd{(a)} Use the	Gaussian approximation to estimate the probability of getting a count of 10 in any one trial. Compare your answer with the exact value from the Poisson probability distribution. \bd{(b)} Use the Gaussian approximation to estimate the probability of getting a count less than or equal to 10.
+		\subsection*{Solution}
+			\begin{enumerate}[label = \bd{(\alph*)}]
+				\item This is a Poisson distribution, but using the Gaussian approximation we can approximate it as a continuous Gaussian distribution with mean $\mu$ and $\sigma = \sqrt \mu$. This means the probability of seeing $x$ counts would be given by
+				\[
+					P(x) = \frac{1}{\sqrt{2\pi\mu}}e^{\frac{-(x-\mu)^2}{2\mu}} 
+				\]
+				We can simply plug in $x = 10$ to our Gaussian formula seeing
+				\[
+					P(10) = \frac{1}{\sqrt{2\pi(18.6)}}e^{\frac{-(10-18.6)^2}{2(18.6)}} = \boxed{0.0127}
+				\]
+				This is relatively close to the Poisson distribution probability of 0.0114.
+				\item We can then use our Z-scores seen in Problem 1 to calculate the probability. We see our Z-score is given by
+				\[
+					Z= \frac{x - \mu}{\sigma} = \frac{10 - 18.6}{\sqrt{18.6}} = -1.99
+				\]
+				Which yields a probability of $P(Z) = \boxed{0.02330}$.
+			\end{enumerate}
+\end{document}
+?
