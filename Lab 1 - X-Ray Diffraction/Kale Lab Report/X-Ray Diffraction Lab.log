@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.2) (preloaded format=pdflatex 2023.4.14)  22 FEB 2024 13:36
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.2) (preloaded format=pdflatex 2023.4.14)  4 MAR 2024 10:40
 entering extended mode
 **"./X-Ray Diffraction Lab.tex"
 (X-Ray Diffraction Lab.tex
@@ -735,9 +735,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 128--146
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[2 <../Graphs/ZeroData.png> <../Graphs/FullData.png>] [3 <../Graphs/Peak 1.png>
- <../Graphs/Peak 3.png> <../Graphs/Peak 5.png> <../Graphs/Peak 2.png> <../Graph
-s/Peak 4.png> <../Graphs/Peak 6.png>] (X-Ray Diffraction Lab.aux) ) 
+
+Underfull \vbox (badness 3439) has occurred while \output is active []
+
+ [2 <../Graphs/ZeroData.png> <../Graphs/FullData.png>] [3 <../Graphs/Peak 1.png
+> <../Graphs/Peak 3.png> <../Graphs/Peak 5.png> <../Graphs/Peak 2.png> <../Grap
+hs/Peak 4.png> <../Graphs/Peak 6.png>] [4
+
+] (X-Ray Diffraction Lab.aux) ) 
 Here is how much of TeX's memory you used:
  15680 strings out of 479334
  305465 string characters out of 2861332
@@ -746,26 +751,26 @@ Here is how much of TeX's memory you used:
  409703 words of font info for 50 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  113i,15n,116p,933b,516s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Users/ka
-les/AppData/Local/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/ka
-les/AppData/Local/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/ka
-les/AppData/Local/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx9.pfb><C:/Users/kal
-es/AppData/Local/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/kal
-es/AppData/Local/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Users/kale
-s/AppData/Local/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/kales
-/AppData/Local/MiKTeX/fonts/type1/public/amsfonts/cm/cmmib10.pfb><C:/Users/kale
-s/AppData/Local/MiKTeX/fonts/type1/public/amsfonts/cmextra/cmmib7.pfb><C:/Users
-/kales/AppData/Local/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/
-kales/AppData/Local/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/k
-ales/AppData/Local/MiKTeX/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Users/kal
-es/AppData/Local/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/kales
-/AppData/Local/MiKTeX/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Users/kales/A
-ppData/Local/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/kales/A
-ppData/Local/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy5.pfb><C:/Users/kales/Ap
-pData/Local/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
-Output written on "X-Ray Diffraction Lab.pdf" (3 pages, 821023 bytes).
+<C:/Users/kales/AppData/Local/MiKTeX/fonts/type1
+/public/amsfonts/cm/cmbx10.pfb><C:/Users/kales/AppData/Local/MiKTeX/fonts/type1
+/public/amsfonts/cm/cmbx12.pfb><C:/Users/kales/AppData/Local/MiKTeX/fonts/type1
+/public/amsfonts/cm/cmbx9.pfb><C:/Users/kales/AppData/Local/MiKTeX/fonts/type1/
+public/amsfonts/cm/cmmi10.pfb><C:/Users/kales/AppData/Local/MiKTeX/fonts/type1/
+public/amsfonts/cm/cmmi5.pfb><C:/Users/kales/AppData/Local/MiKTeX/fonts/type1/p
+ublic/amsfonts/cm/cmmi7.pfb><C:/Users/kales/AppData/Local/MiKTeX/fonts/type1/pu
+blic/amsfonts/cm/cmmib10.pfb><C:/Users/kales/AppData/Local/MiKTeX/fonts/type1/p
+ublic/amsfonts/cmextra/cmmib7.pfb><C:/Users/kales/AppData/Local/MiKTeX/fonts/ty
+pe1/public/amsfonts/cm/cmr10.pfb><C:/Users/kales/AppData/Local/MiKTeX/fonts/typ
+e1/public/amsfonts/cm/cmr12.pfb><C:/Users/kales/AppData/Local/MiKTeX/fonts/type
+1/public/amsfonts/cm/cmr5.pfb><C:/Users/kales/AppData/Local/MiKTeX/fonts/type1/
+public/amsfonts/cm/cmr7.pfb><C:/Users/kales/AppData/Local/MiKTeX/fonts/type1/pu
+blic/amsfonts/cm/cmr9.pfb><C:/Users/kales/AppData/Local/MiKTeX/fonts/type1/publ
+ic/amsfonts/cm/cmsy10.pfb><C:/Users/kales/AppData/Local/MiKTeX/fonts/type1/publ
+ic/amsfonts/cm/cmsy5.pfb><C:/Users/kales/AppData/Local/MiKTeX/fonts/type1/publi
+c/amsfonts/cm/cmsy7.pfb>
+Output written on "X-Ray Diffraction Lab.pdf" (4 pages, 819800 bytes).
 PDF statistics:
- 102 PDF objects out of 1000 (max. 8388607)
+ 105 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  68 words of extra memory for PDF output out of 10000 (max. 10000000)
 
